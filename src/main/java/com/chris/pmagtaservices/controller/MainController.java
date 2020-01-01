@@ -101,7 +101,7 @@ public class MainController {
         return addonInventoryItemsRepository.findAll();
     }
 
-    @GetMapping("get-addon-inventory-items")
+    @GetMapping("get-addon-account-items-data")
     public List<AddonAccountData> getAddonAccountData(){
         return addonAccountDataRepository.findAll();
     }
